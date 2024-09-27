@@ -1,0 +1,15 @@
+{
+  "name": "hardhat-basics",
+  "version": "1.0.0",
+  "description": "hardhat introduction project for learning basics of hardhat",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Soumil Vavikar",
+  "license": "ISC",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "hardhat": "^2.3.3"
+  }
+}
