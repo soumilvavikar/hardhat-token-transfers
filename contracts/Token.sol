@@ -78,4 +78,11 @@ contract Token {
     function balanceOf(address account) external view returns (uint256) {
         return balances[account];
     }
+
+    /**
+     * This function will be called when we deploy the contract on the chain from the TokenModule.js
+     */
+    function isDeployed() external pure returns (string memory) {
+        return "Contract is deployed successfully...";
+    }
 }
