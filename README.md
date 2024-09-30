@@ -89,7 +89,7 @@ Once, the folder structure is created, lets create our local module and name it 
 npx hardhat node
 ```
 
-This will start the local node and in the terminal we can see the dummy accounts, their mapped private keys, and ethers assigned to them. 
+This will start the local node and in the terminal we can see the dummy accounts, their mapped private keys, and ethers assigned to them.
 
 ##### Step 4.2: Deploy the Hardhat project / contract to the local network
 
