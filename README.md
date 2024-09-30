@@ -98,6 +98,12 @@ npx hardhat ignition deploy ignition/modules/TokenModule.js --network localhost
 
 # For 2nd deployment 
 npx hardhat ignition deploy ignition/modules/TokenModule.js --network localhost --deployment-id second-deploy
+
+# Getting info on deployment - this will return the chain-id
+npx hardhat ignition deployments 
+
+# Getting the status of the deployment 
+npx hardhat ignition status chain-31337
 ```
 
 **NOTE**:
@@ -105,6 +111,16 @@ npx hardhat ignition deploy ignition/modules/TokenModule.js --network localhost 
 - PRO TIP: Run this command in the separate terminal.
 - If in the above command, the `--network localhost` is not passed, then it by default deploys to local network.
 - If you need to do multiple deployments of the contract use `--deployment-id <unique-deployment-id>` along with the command.
+
+#### Step 5: Executing the functions in the contract
+
+Refer to `Interact.js` inside the `interactions` folder. It has been written to call BOTH transfer and balance of function of the `Token.sol` contract.
+
+Command to be used to trigger the `Interact.js` script
+
+```shell
+npx hardhat run interactions/Interact.js --network localhost
+```
 
 ### Deploying the Hardhat project / contract to the Remote network
 
