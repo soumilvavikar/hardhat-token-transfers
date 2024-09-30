@@ -1,4 +1,4 @@
-const { ethers } = require("hardhat");
+require("hardhat");
 
 async function main() {
     // Account that is used by ignition to deploy the contract
