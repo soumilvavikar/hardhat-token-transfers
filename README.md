@@ -160,4 +160,4 @@ npx hardhat ignition verify chain-11155111
 
 **NOTE**:
 
-- You can also pass `--verify`` to the deploy command to do the verification. 
+- You can also pass `--verify`` to the deploy command to do the verification.
